@@ -7,6 +7,15 @@ const messages = [
 ];
 
 export default function App() {
+  return (
+    <div>
+      <Steps />
+      <Steps />
+    </div>
+  );
+}
+
+function Steps() {
   // useState function returns a value and a function
   const [step, setStep] = useState(1);
   // const [name, setName] = useState({ name: "John" });
